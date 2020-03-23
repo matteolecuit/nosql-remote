@@ -18,8 +18,9 @@ Pour ceux qui ont besoin de teams, ajouter un élement nom prenom numero
 Mettre à jour tout les éléments de teams, rajouter une propriété titulaire (tous titulaires)
 */
 
+// Create Collection
 db.createCollection("sports");
-
+// Add sports
 db.sports.insert([
   {
     type: "collective",
@@ -37,25 +38,26 @@ db.sports.insert([
     originCountry: "Germany"
   }
 ]);
-
+// Add field requireTeam and title
 db.sports.updateMany(
   {},
   { $set: { requireTeam: true, title: "titre" } },
   { upsert: true }
 );
 
+// Set minPlayer=2 if requiredTeam is true
 db.sports.updateMany(
   { requireTeam: true },
   { $set: { minPlayer: 2 } },
   { upsert: true }
 );
-
+// Increase minPlayer if requiredTeam is true
 db.sports.updateMany(
   { requireTeam: true },
   { $inc: { minPlayer: 10 } },
   { upsert: true }
 );
-
+// Add team if requireTeam is true
 db.sports.updateMany(
   { requireTeam: true },
   {
@@ -68,15 +70,13 @@ db.sports.updateMany(
   },
   { upsert: true }
 );
-
+// Add holder=true to every players
 db.sports.updateMany(
-  { requireTeam: true },
+  { team: { $exists: true } },
   {
     $set: {
-      team.$.holder: true
+      "team.$[].holder": true
     }
   },
   { upsert: true }
 );
-
-db.users.updateMany({"hobbies": {$elemMatch: {"title": "Sports", "frequency":{$gte: 2 }}}}, { $set: { "hobbies.$.toto": "toto"}})
