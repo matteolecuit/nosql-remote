@@ -1,0 +1,160 @@
+[
+  {
+    "isActive": true,
+    "balance": "$2,913.34",
+    "age": 28,
+    "eyeColor": "green",
+    "name": { "first": "Guerra", "last": "Aguilar" },
+    "company": "KNOWLYSIS",
+    "email": "guerra.aguilar@knowlysis.me",
+    "phone": "+1 (828) 468-2734",
+    "address": "413 Everit Street, Klagetoh, Minnesota, 6630",
+    "registered": "Saturday, January 24, 2015 2:58 PM",
+    "latitude": "-58.408309",
+    "longitude": "-73.171014",
+    "tags": ["elit", "anim", "proident"],
+    "favoriteFruit": "banana",
+    "hobbies": [
+      {
+        "title": "Sports",
+        "frequency": 2
+      },
+      {
+        "title": "Yoga",
+        "frequency": 3
+      }
+    ]
+  },
+  {
+    "isActive": false,
+    "balance": "$2,225.88",
+    "age": 23,
+    "eyeColor": "brown",
+    "name": { "first": "Jeanine", "last": "Whitehead" },
+    "company": "GYNKO",
+    "email": "jeanine.whitehead@gynko.io",
+    "phone": "+1 (820) 542-3052",
+    "address": "732 Thornton Street, Wildwood, Vermont, 1684",
+    "registered": "Tuesday, January 2, 2018 8:53 PM",
+    "latitude": "23.642628",
+    "longitude": "-32.208287",
+    "tags": ["voluptate", "cillum", "ex"],
+    "favoriteFruit": "banana",
+    "hobbies": [
+      {
+        "title": "Sports",
+        "frequency": 2
+      },
+      {
+        "title": "Dev",
+        "frequency": 3
+      }
+    ]
+  },
+  {
+    "isActive": false,
+    "balance": "$1,961.07",
+    "age": 34,
+    "eyeColor": "blue",
+    "name": { "first": "Anthony", "last": "Brown" },
+    "company": "ENTROFLEX",
+    "email": "anthony.brown@entroflex.biz",
+    "phone": "+1 (887) 519-3970",
+    "address": "431 Aitken Place, Nescatunga, Colorado, 8768",
+    "registered": "Monday, April 4, 2016 6:22 PM",
+    "latitude": "50.723498",
+    "longitude": "23.464131",
+    "tags": ["pariatur", "mollit", "nostrud"],
+    "favoriteFruit": "banana",
+    "hobbies": [
+      {
+        "title": "Sports",
+        "frequency": 5
+      },
+      {
+        "title": "Sleeping",
+        "frequency": 5
+      }
+    ]
+  },
+  {
+    "isActive": true,
+    "balance": "$3,690.88",
+    "age": 28,
+    "eyeColor": "blue",
+    "name": { "first": "Alisa", "last": "Booker" },
+    "company": "INSURON",
+    "email": "alisa.booker@insuron.biz",
+    "phone": "+1 (966) 580-2622",
+    "address": "910 Chester Street, Wright, Massachusetts, 8295",
+    "registered": "Sunday, December 3, 2017 1:35 PM",
+    "latitude": "26.691261",
+    "longitude": "109.486432",
+    "tags": ["nostrud", "ad", "ad"],
+    "favoriteFruit": "banana"
+  },
+  {
+    "isActive": true,
+    "balance": "$1,882.24",
+    "age": 40,
+    "eyeColor": "green",
+    "name": { "first": "Billie", "last": "Combs" },
+    "company": "AFFLUEX",
+    "email": "billie.combs@affluex.info",
+    "phone": "+1 (903) 566-2324",
+    "address": "664 Chester Court, Accoville, California, 8880",
+    "registered": "Friday, June 26, 2015 10:07 PM",
+    "latitude": "48.617005",
+    "longitude": "-148.299877",
+    "tags": ["id", "fugiat", "aute"],
+    "favoriteFruit": "banana"
+  },
+  {
+    "isActive": true,
+    "balance": "$2,132.46",
+    "age": 37,
+    "eyeColor": "green",
+    "name": { "first": "Parrish", "last": "Vincent" },
+    "company": "SCHOOLIO",
+    "email": "parrish.vincent@schoolio.us",
+    "phone": "+1 (887) 410-2480",
+    "address": "119 Thames Street, Norvelt, Mississippi, 7027",
+    "registered": "Sunday, January 27, 2019 6:41 AM",
+    "latitude": "68.636714",
+    "longitude": "28.094422",
+    "tags": ["voluptate", "ipsum", "excepteur"],
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "isActive": true,
+    "balance": "$3,243.76",
+    "age": 35,
+    "eyeColor": "green",
+    "name": { "first": "Reva", "last": "Bernard" },
+    "company": "MONDICIL",
+    "email": "reva.bernard@mondicil.co.uk",
+    "phone": "+1 (840) 524-2686",
+    "address": "940 Halleck Street, Lacomb, American Samoa, 9035",
+    "registered": "Wednesday, August 1, 2018 11:08 PM",
+    "latitude": "84.89128",
+    "longitude": "-136.700687",
+    "tags": ["occaecat", "pariatur", "ea"],
+    "favoriteFruit": "banana"
+  },
+  {
+    "isActive": false,
+    "balance": "$1,571.64",
+    "age": 35,
+    "eyeColor": "green",
+    "name": { "first": "Esmeralda", "last": "Bruce" },
+    "company": "INTERFIND",
+    "email": "esmeralda.bruce@interfind.name",
+    "phone": "+1 (947) 592-2659",
+    "address": "442 Revere Place, Eureka, Marshall Islands, 2248",
+    "registered": "Wednesday, March 14, 2018 12:37 AM",
+    "latitude": "5.730331",
+    "longitude": "72.278446",
+    "tags": ["est", "do", "cupidatat"],
+    "favoriteFruit": "apple"
+  }
+]
